@@ -15,7 +15,7 @@ body{
 }
 /* HEADER */
 header{
-  height: 100px;
+  height: 40px;
   margin-top: 10px;
 }
 
@@ -84,8 +84,7 @@ header{
   text-decoration: underline;
 }
 
-.btn{
-  font-size: 12px;
+.btn{ 
   color: white;
   padding: 8px 20px;
   background-color:#0061FF;
@@ -93,8 +92,71 @@ header{
 }
 
 #inizia{
+  font-size: 12px;
   float: right;
   margin-top: 5px;
 }
 
 /* JUMBOTRON */
+
+.jumbotron{
+  position: relative;
+  background-color:#B4D0E7;
+  min-height: 600px;
+}
+
+.titolo{
+  font-size: 40px;
+  width: 70%;
+  padding-top: 5%;
+  margin: 0 0 20px 10%;
+}
+
+.descrizione{
+  text-align: left;
+  width: 400px;
+  margin-top: 50px;
+  margin-left:10%;
+  font-size: 18px;
+}
+
+#prova{
+  font-size: 15px;
+  float: left;
+  margin-left: 10%;
+  margin-top: 25px;
+}
+
+#prova p{
+  margin-top: 15px;
+}
+
+.arrow-down{
+  color: black;
+  margin-top: 50px;
+}
+
+.arrow-down ul{
+  list-style: none;
+}
+
+.arrow-down ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.foto-jumbotron{
+  position: absolute;
+  float:right;
+  left: 35%;
+  top: 45%;
+}
+
+.foto-jumbotron img{
+  width: 800px;
+  height: 400px;
+}
+
+
+
