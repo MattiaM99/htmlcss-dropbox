@@ -182,7 +182,7 @@ header{
 }
 
 .colonna{
-  display: inline-block;
+  float: left;
   width: 30%;
   height: 950px;
   border: 1px solid grey;
