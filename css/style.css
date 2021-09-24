@@ -167,6 +167,7 @@ header{
 /* ABBONAMENTI */
 .abbonamenti{
   width:100vw;
+  height: 100vh;
   padding: 0 25%;
 }
 
@@ -180,3 +181,109 @@ header{
   padding: 50px 20px 30px 0px;
 }
 
+#fat-mensile{
+  display: inline-block;
+  margin-right: 40px;
+}
+
+#fat-annuale{
+  display: inline-block;
+}
+
+.row{
+  position: relative;
+  width: 100%;
+  margin-top: 5%;
+}
+
+#colonna-1{
+  float: left;
+  width: 31%;
+  height: 900px;
+  border:1px solid grey;
+  margin-right: 3%;
+}
+
+#colonna-2{
+  float: left;
+  width: 31%;
+  height: 900px;
+  border:1px solid grey;
+  margin-right: 3%;
+}
+
+#colonna-3{
+  float: left;
+  width: 31%;
+  height: 900px;
+  border:1px solid grey;
+}
+
+.user{
+  text-align: center;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}
+
+.col-top{
+  margin: 30px 0 35px 25px;
+  line-height: 30px;
+}
+
+.col-top p{
+  color: gray;
+}
+
+.plan-desc{
+  margin-left: 25px;
+}
+
+.plan-desc ul{
+  list-style: none;
+}
+
+.plan-desc li{
+  margin-bottom: 15px;
+}
+
+.btn-30gg{
+  margin:40px 45px;
+  width: 300px;
+}
+
+.acquista-ora{
+  margin-left: 25px;
+  margin-bottom: 80px;
+}
+
+.acquista-ora a{
+  color: #0061FF;
+}
+
+.riassunto{
+  margin-left: 25px;
+}
+
+.riassunto ul{
+  list-style: none;
+}
+
+.riassunto li{
+  margin-top: 15px;
+}
+
+.enterprise{
+  position: relative;
+  float: left;
+  width: 99%;
+  border:1px solid grey;
+  height: 200px;
+  margin-top: 3%;
+}
+
+.btn-contatta{
+  position: absolute;
+  width: 400px;
+  left: 70%;
+  top: 70px;
+}
