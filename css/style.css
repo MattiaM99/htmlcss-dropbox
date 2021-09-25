@@ -202,6 +202,8 @@ header{
   height: 900px;
   border:1px solid grey;
   margin-right: 3%;
+  padding:15px;
+  
 }
 
 #colonna-2{
@@ -210,6 +212,7 @@ header{
   height: 900px;
   border:1px solid grey;
   margin-right: 3%;
+  padding:15px;
 }
 
 #colonna-3{
@@ -217,6 +220,7 @@ header{
   width: 31%;
   height: 900px;
   border:1px solid grey;
+  padding:15px;
 }
 
 .user{
@@ -226,7 +230,7 @@ header{
 }
 
 .col-top{
-  margin: 30px 0 35px 25px;
+  margin-top: 30px;
   line-height: 30px;
 }
 
@@ -235,7 +239,7 @@ header{
 }
 
 .plan-desc{
-  margin-left: 25px;
+  margin-bottom: 20%;
 }
 
 .plan-desc ul{
@@ -247,21 +251,16 @@ header{
 }
 
 .btn-30gg{
-  margin:40px 45px;
-  width: 300px;
+  text-align: center;
 }
 
 .acquista-ora{
-  margin-left: 25px;
+  margin-top: 20%;
   margin-bottom: 80px;
 }
 
 .acquista-ora a{
   color: #0061FF;
-}
-
-.riassunto{
-  margin-left: 25px;
 }
 
 .riassunto ul{
@@ -273,13 +272,13 @@ header{
 }
 
 .enterprise{
-  position: relative;
+  margin-top: 3%;
   float: left;
   width: 99%;
   border:1px solid grey;
-  height: 200px;
-  margin-top: 3%;
+  padding:15px;
 }
+
 
 .btn-contatta{
   position: absolute;
@@ -294,17 +293,14 @@ header{
 }
 
 .foto-left{
-  position: absolute;
   float: left;
-  top: 0;
-  left: -45px;
   width: 40%;
   margin: 0px 10px 10px 26%;
 }
 
 .foto-left img{
-  height: 500px;
-  width: 500px;
+  height: 600px;
+  width: 600px;
   object-fit: contain;
 }
 
@@ -312,7 +308,7 @@ header{
   font-size: 20px;
   padding: 50px 25% 0px 5%;
   width: 60%;
-  margin-left: 46%;
+  margin-left: 45%;
 }
 
 .caption h2{
@@ -323,18 +319,23 @@ header{
   font-size: 18px;
 }
 
+.btn-partner{
+  padding: 35px;
+}
+
 .white{
-  position: absolute;
-  float: right;
-  right: 770px;
-  top: 220px;
   background-color: white;
   color: black;
   border: 3px solid black;
 }
 
 .Drop-business{
-  margin-top: 350px;
+  margin-top:100px ;
+  max-width: 1080px;
+}
+
+.Drop-business h2{
+  font-size: 40px;
 }
 
 .slot{
@@ -342,10 +343,12 @@ header{
   float: left;
   margin: 1%;
   background-size: contain; 
-  background-repeat: no-repeat;
   width: 31%; 
 }
 
+.slot-capt h3{
+  margin: 30px 0;
+}
 .foto{
   width: 100%;
   height: auto;
