@@ -49,8 +49,9 @@ header{
 }
 
 .left-nav ul li a:hover{
-  text-decoration: underline;
+  border-bottom: 2px solid black;
 }
+
 
 /* logo */
 .logo, .left-nav{
@@ -87,8 +88,10 @@ header{
 
 
 .right-nav ul li a:hover{
-  text-decoration: underline;
+  border-bottom: 2px solid black;
 }
+
+
 
 .btn{ 
   color: white;
@@ -101,6 +104,10 @@ header{
  .inizia a:first-child{
   color: white;
 } 
+
+.inizia a:hover{
+  background-color: rgba(0, 97, 255, .8) ;
+}
 
 /* JUMBOTRON */
 
@@ -130,6 +137,10 @@ header{
   float: left;
   margin-left: 10%;
   margin-top: 25px;
+}
+
+.prova a:hover{
+  background-color: rgba(0, 97, 255, .8) ;
 }
 
 .prova p{
@@ -252,6 +263,10 @@ header{
   text-align: center;
 }
 
+.btn-30gg a:hover{
+  background-color: rgba(0, 97, 255, .8);
+}
+
 .acquista-ora{
   margin-top: 20%;
   margin-bottom: 80px;
@@ -283,6 +298,9 @@ header{
   float: right;
 }
 
+.btn-contatta a:hover{
+  background-color: rgba(0, 97, 255, .8);
+}
 .partner{
   margin-top: 200px;
   max-width: 1080px;
@@ -316,6 +334,10 @@ header{
 
 .btn-partner{
   padding: 35px;
+}
+
+.btn-partner a:hover{
+  background-color: rgba(245, 245, 245, .8);
 }
 
 .white{
@@ -377,6 +399,7 @@ header{
   float: left;
   padding: 50px;
   overflow: auto;
+  background-color: #F5F5F5;
 }
 
 .team-center-text, .team-center-foot{
@@ -515,6 +538,7 @@ header{
 }
 
 footer{
+  margin-top: 100px;
   width: 100%;
   background-color: black;
 }
