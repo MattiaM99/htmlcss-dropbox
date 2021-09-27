@@ -491,7 +491,59 @@ header{
   float: right;
 }
 
+.titolo-faq{
+  max-width: 1080px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
 .faq{
   max-width: 1080px;
-  margin-top: 50px;
+  border-bottom: 1px solid lightgray;
+  padding: 50px 0;
+}
+
+.domanda {
+  float: left;
+  width: 70%;
+}
+
+.tendina{
+  float: right;
+  width: 30%;
+}
+
+footer{
+  width: 100%;
+  background-color: black;
+}
+
+.sezione-utile{
+  width: 85%;
+  padding: 150px;
+  margin: auto;
+}
+
+.lista{
+  display: inline;
+  width: 17%;
+  color: white;
+}
+
+.lista h4{
+  margin-bottom: 20px;
+}
+
+.lista ul{
+  list-style: none;
+}
+
+.lista ul li{
+  margin: 10px 0;
+}
+
+.lista ul li a{
+  text-decoration: none;
+  color: white;
 }
