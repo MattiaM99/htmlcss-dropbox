@@ -363,7 +363,7 @@ header{
   width: 400px;
   margin-bottom: 40px;
 }
-
+/*********** INIZIO TABELLA ***********/
 .tabella-team{
   width: 100%;
   display: inline-block;
@@ -472,3 +472,35 @@ header{
   filter: invert(1);
  }
 
+ .tabella-footer{
+   float: left;
+   width: 100%;
+   height: 300px;
+   background-color:#B4D0E7 ;
+   margin: 0;
+   padding: 150px 450px;
+ }
+
+ .tab-foot-caption{
+   color: #61082C;
+   float: left;
+   width: 430px;
+   font-size: 25px;
+ }
+
+ .btn-white{
+  padding: 5px 50px;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+ }
+
+ .table-btn {
+  float: left;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+.faq{
+  
+}
