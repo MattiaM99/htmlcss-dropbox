@@ -18,7 +18,6 @@ body{
 header{ 
   position: fixed;
   width: 100%;
-  height: 80px;
   padding: 20px;
   background-color: white;
   z-index: 999;
@@ -167,7 +166,6 @@ header{
 /* ABBONAMENTI */
 .abbonamenti{
   width:100vw;
-  height: 100vh;
   padding: 0 25%;
 }
 
@@ -199,7 +197,7 @@ header{
 #colonna-1{
   float: left;
   width: 31%;
-  height: 900px;
+  min-height: 900px;
   border:1px solid grey;
   margin-right: 3%;
   padding:15px;
@@ -209,7 +207,7 @@ header{
 #colonna-2{
   float: left;
   width: 31%;
-  height: 900px;
+  min-height: 900px;
   border:1px solid grey;
   margin-right: 3%;
   padding:15px;
@@ -218,7 +216,7 @@ header{
 #colonna-3{
   float: left;
   width: 31%;
-  height: 900px;
+  min-height: 900px;
   border:1px solid grey;
   padding:15px;
 }
@@ -286,27 +284,26 @@ header{
 }
 
 .partner{
-  margin-top: 400px;
-  position: relative;
+  margin-top: 200px;
+  max-width: 1080px;
 }
 
 .foto-left{
   float: left;
   width: 40%;
-  margin: 0px 10px 10px 26%;
 }
 
 .foto-left img{
-  height: 600px;
-  width: 600px;
+  height: 550px;
+  width: 550px;
   object-fit: contain;
 }
 
 .caption{
   font-size: 20px;
-  padding: 50px 25% 0px 5%;
-  width: 60%;
-  margin-left: 45%;
+  padding: 50px;
+  width: 35%;
+  margin-left: 57%;
 }
 
 .caption h2{
@@ -367,18 +364,16 @@ header{
 .tabella-team{
   width: 100%;
   display: inline-block;
-  height: 500px;
 }
 
 .team-left{
   width: 30%;
-  height: 100%;
   float: left;
 }
 
 .team-center{
+  height: 500px;
   width: 40%;
-  height: 100%;
   float: left;
   padding: 50px;
   overflow: auto;
@@ -390,14 +385,13 @@ header{
 
 .team-right{
   width: 30%;
-  height: 100%;
   float: right;
 }
 
 .team-row-l{
   float: left;
   width: 100%;
-  height: 50%;
+  height: 250px;
 }
 
 .team-block-l{
@@ -456,13 +450,13 @@ header{
 .team-row-r{
   float: left;
   width: 100%;
-  height: 50%;
+  height: 250px;
 }
 
 .team-block-r{
   float: left;
   width: 50%;
-  height:100%;
+  height: 100%;
   padding: 60px;
   text-align: center;
 }
@@ -473,18 +467,16 @@ header{
  }
 
  .tabella-footer{
-   float: left;
    width: 100%;
-   height: 300px;
    background-color:#B4D0E7 ;
-   margin: 0;
+   margin-top: 0;
    padding: 150px 450px;
  }
 
  .tab-foot-caption{
    color: #61082C;
    float: left;
-   width: 430px;
+   width: 50%;
    font-size: 25px;
  }
 
@@ -496,11 +488,10 @@ header{
  }
 
  .table-btn {
-  float: left;
-  margin-left: 250px;
-  margin-top: 20px;
+  float: right;
 }
 
 .faq{
-  
+  max-width: 1080px;
+  margin-top: 50px;
 }
