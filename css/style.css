@@ -526,9 +526,9 @@ footer{
 }
 
 .lista{
-  display: inline;
-  width: 17%;
+  display: inline-block;
   color: white;
+  width: 17%;
 }
 
 .lista h4{
